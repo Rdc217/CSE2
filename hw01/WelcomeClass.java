@@ -9,7 +9,7 @@ public class WelcomeClass{
 //add main method
 public static void main(String[] args)  {
     
-   // print this statement with a box around it
+   // print welcome statement with a box around it and email in this funky design
    System.out.println("  -----------");
    System.out.println("  | WELCOME |");
    System.out.println("  -----------");
