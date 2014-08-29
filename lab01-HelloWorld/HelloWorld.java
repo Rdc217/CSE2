@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////////////
-//Brian Chen
+//Ryan Cooney
 //Demo 0 
 //Hello World Java Program
 //
@@ -25,5 +25,5 @@ public static void main(String[] args)  {
     System.out.println("test");
     
     //test/testtest
-  }
+    }
 }
