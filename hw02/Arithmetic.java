@@ -81,7 +81,7 @@ public class Arithmetic {
         System.out.println("Envelopes");
         System.out.println("Number purchased is "+nEnvelopes);
         System.out.println("Cost per item is $"+envelopeCost$);
-        
+        //envelopes number bought and price per
     
         //print output values
         System.out.println("The total cost of socks was $"+
