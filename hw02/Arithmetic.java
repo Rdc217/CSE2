@@ -69,6 +69,20 @@ public class Arithmetic {
         totalCostOfPurchasesWithTax$ = totalCostOfPurchasesNoTax$+totalSalesTax$;
         //total cost of purchase with sales tax
         
+        //print each item number bought and price per item
+        System.out.println("Socks"); 
+        System.out.println("Number purchased "+nSocks);
+        System.out.println("Cost per item is $"+sockCost$);
+        //socks number bought and price per
+        System.out.println("Glasses");
+        System.out.println("Number purchased "+nGlasses);
+        System.out.println("Cost per item is $"+glassCost$);
+        //glasses number bought and price per
+        System.out.println("Envelopes");
+        System.out.println("Number purchased is "+nEnvelopes);
+        System.out.println("Cost per item is $"+envelopeCost$);
+        
+    
         //print output values
         System.out.println("The total cost of socks was $"+
         totalSockCost2$); //prints total sock cost
