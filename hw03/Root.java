@@ -27,6 +27,7 @@ public class Root {
         guess= ((guess*guess*guess+x)/(3*guess*guess)); //calculation to find crude guess for cubed root
         guess= ((2*guess*guess*guess+x)/(3*guess*guess)); //improvement on guess
         guess= ((2*guess*guess*guess+x)/(3*guess*guess)); //improvement on guess
+        guess= ((2*guess*guess*guess+x)/(3*guess*guess)); //improves on guess
         guess= ((2*guess*guess*guess+x)/(3*guess*guess)); //improvement on guess
         double X= (guess*guess*guess); 
         //gets the number originally entered back
