@@ -43,7 +43,7 @@ public class BigMacAgain {
             
                 System.out.println(
                 "You ordered "+nBigMacs+  
-                " Big Macs for a cost of: "
+                " Big Macs for a cost of: $"
                 +totalCost$); 
                 //computes and displays total cost of Big Macs
             
@@ -60,7 +60,7 @@ public class BigMacAgain {
                     "You ordered fries at a cost of $2.15");
                     //states cost of fries
                     System.out.println(
-                    "The total cost of the meal is " 
+                    "The total cost of the meal is $" 
                     +totalCostFries$);
                     //computes total cost of meal
                 }//ends if statement
