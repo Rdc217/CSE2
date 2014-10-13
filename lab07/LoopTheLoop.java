@@ -1,7 +1,7 @@
 //Ryan Cooney
 //CSE Lab07 10/10/2014
 //LoopTheLoop
-//Practice with while loops
+//Practice with while loops 
 
 import java.util.Scanner; //imports the scanner tool
 
@@ -12,7 +12,7 @@ public class LoopTheLoop {
         //creates main method needed for program
         
         Scanner myScanner; //creates an instance of the scanner
-        myScanner= new Scanner(System.in); //calls scanner construct
+        myScanner= new Scanner(System.in); //calls scanner construct 
         
          while(true){ //sets up the infinite loop
             

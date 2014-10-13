@@ -1,11 +1,7 @@
 //Ryan Cooney
 //CSE Hw06 10/11/2014
 //Root
-//Runs a Monte Carlo simulation for a game of Roulette.
-//You play Roulette 100 times, and the simulation is run 1000
-//times. Program computes the number of times you lost 
-//everything, total winnings, and the number of time you
-//walked away with a profit. 
+//Uses the bisection method to calculate the square root of a double you enter.
 
 import java.util.Scanner; //imports the Scanner tool
 

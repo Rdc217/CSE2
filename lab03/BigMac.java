@@ -7,7 +7,7 @@
 import java.util.Scanner; //imports the scanner tool used to gather info
 
 public class BigMac {
-    //creates calls required for program
+    //creates class required for program
     
     public static void main(String[] args) {
         //creates main method required for program
