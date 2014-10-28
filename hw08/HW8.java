@@ -1,7 +1,7 @@
 //Ryan Cooney   
 //CSE2 hw08 10/26/14
 //HW8
-//More practice with methods
+//uses methods to simulate a driver
 
 
 import java.util.Scanner; //imports the scanner tool
