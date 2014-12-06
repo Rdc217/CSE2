@@ -79,13 +79,15 @@ public class MatrixSorter{ //creates class
       }
     }
     
-    for(int j=1;j<array.length;j++){ //loop for the insertion sort
-      int[] key=makeTemp(array[j]); //creates an array copy to use as your key
-      int i; //intitalizes i
-      for(i=j-1; (i>=0) && (array[i][0]>array[j][0]);i--){ //checks the array spot before it see if its smaller
-        array[i+1]=makeTemp(array[i]); //performs swap
+    for(int a=0;a<array.length;a++){ //loop for the insertion sort 
+      for(int j=1;j<array.length;j++){ //sorts one of the rows
+        int[] key=makeTemp(array[j]); //creates an array copy to use as your key
+        int i; //intitalizes i
+        for(i=j-1; (i>=0) && (array[i][0]>array[j][0]);i--){ //checks the array spot before it see if its smaller
+          array[i+1]=makeTemp(array[i]); //performs swap
+        }
+        array[i+1]=key; //finishs swap
       }
-      array[i+1]=key; //finishs swap
     }
     
   }//close method
