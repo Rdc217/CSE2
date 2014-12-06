@@ -42,53 +42,58 @@ public class PokerHands{ //creates class
 							}
 						}
 						
-						
-						System.out.print("Enter one of 'a', 'k', 'q', 'j', '10', ...'2'- "); //asks for input
-						String strFace=scan.next();
-						if(strFace.equals("10")){ //since 10 is not a char I made a char to represent it
-							strFace="t";
-						}
-						char face= strFace.charAt(0); //makes each face into char for switch
-						switch(face){ //switch statement that calculates card number from 0 to 51 inclusive
-							case 'a':
-								hand[i]=(hand[i]*13)+0;
-								break;
-							case 'k':
-								hand[i]=(hand[i]*13)+1;
-								break;
-							case 'q':
-								hand[i]=(hand[i]*13)+2;
-								break;
-							case 'j':
-								hand[i]=(hand[i]*13)+3;
-								break;
-							case 't' :
-								hand[i]=(hand[i]*13)+4;
-								break;
-							case '9':
-								hand[i]=(hand[i]*13)+5;
-								break;
-							case '8':
-								hand[i]=(hand[i]*13)+6;
-								break;
-							case '7':
-								hand[i]=(hand[i]*13)+7;
-								break;
-							case '6':
-								hand[i]=(hand[i]*13)+8;
-								break;
-							case '5':
-								hand[i]=(hand[i]*13)+9;
-								break;
-							case '4':
-								hand[i]=(hand[i]*13)+10;
-								break;
-							case '3':
-								hand[i]=(hand[i]*13)+11;
-								break;
-							case '2':
-								hand[i]=(hand[i]*13)+12;
-								break;
+						while(true){ //keeps in infinite loop to check if input is valid
+							System.out.print("Enter one of 'a', 'k', 'q', 'j', '10', ...'2'- "); //asks for input
+							String strFace=scan.next();
+							if(strFace.equals("10")){ //since 10 is not a char I made a char to represent it
+								strFace="t";
+							}
+							char face= strFace.charAt(0); //makes each face into char for switch
+							switch(face){ //switch statement that calculates card number from 0 to 51 inclusive
+								case 'a':
+									hand[i]=(hand[i]*13)+0;
+									break;
+								case 'k':
+									hand[i]=(hand[i]*13)+1;
+									break;
+								case 'q':
+									hand[i]=(hand[i]*13)+2;
+									break;
+								case 'j':
+									hand[i]=(hand[i]*13)+3;
+									break;
+								case 't' :
+									hand[i]=(hand[i]*13)+4;
+									break;
+								case '9':
+									hand[i]=(hand[i]*13)+5;
+									break;
+								case '8':
+									hand[i]=(hand[i]*13)+6;
+									break;
+								case '7':
+									hand[i]=(hand[i]*13)+7;
+									break;
+								case '6':
+									hand[i]=(hand[i]*13)+8;
+									break;
+								case '5':
+									hand[i]=(hand[i]*13)+9;
+									break;
+								case '4':
+									hand[i]=(hand[i]*13)+10;
+									break;
+								case '3':
+									hand[i]=(hand[i]*13)+11;
+									break;
+								case '2':
+									hand[i]=(hand[i]*13)+12;
+									break;
+								default:
+									System.out.println("You did not enter a valid response");
+									continue;
+							}
+							break;//breaks out of infinite loop
 						}
 						int counter=0; //counter to see if same card is entered
 						for (int j=0; j<i;j++){ //checks to see if a duplicate card has been entered
